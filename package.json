@@ -4,14 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node bin/index.js"
+    "test": "electron bin/indexElectron.js ",
+    "start": "node bin/index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "ejs": "^2.6.1",
-    "electron": "^5.0.1",
+    "electron-ejs": "^1.2.1",
     "express": "^4.17.0"
+  },
+  "devDependencies": {
+    "electron": "^5.0.1"
   }
 }
