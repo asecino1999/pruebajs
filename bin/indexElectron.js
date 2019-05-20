@@ -22,16 +22,3 @@ app.on('ready', ()=>{
 
 
 
-
-/*
-const dialogo = class{
-    constructor ( n,d ){
-        this.nombre=n;
-        this.dialogo=d;
-    }
-    greet() {
-        return 'says hello.';
-    }
-}
-var d = new dialogo("nombre","dialgo"); 
-console.log(d.nombre );*/
