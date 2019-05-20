@@ -16,6 +16,7 @@ i'll like it could be export to diferents plataforms
 
 # next step 
 
+
 * clean code 
 
 * add char and dialg class with a simple sintax 
@@ -38,4 +39,4 @@ look more elements of orginal renpy
 
 
 
-![](./Captura1.png);
+![](./Captura1.png)
