@@ -22,4 +22,4 @@ look more elements of orginal renpy
 
 
 
-
+![](./Captura1.png);
