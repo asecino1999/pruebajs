@@ -1,8 +1,25 @@
 # pruebajs
 
+# iniciar  
+    npm init 
+    npm install 
+    npm test 
 
-it's just a prube to as exercise
-imitation of ren'py but with js node 
-it show be posible use as web and as desktop app 
+
+it's just a test, imitation of ren'py but with js node , vue and  ejs , to learn  
+
+i'll like it could be export to diferents plataforms 
+( to linux , windows  as desktop (electron) , to web and movile )    
+#Now
+ it can open a window and shows a menu and a simple scene
+
+
+# next step 
+
+clean code 
+add char and dialg class with a simple sintax 
+look more elements of orginal renpy 
+
+
 
 
