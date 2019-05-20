@@ -8,9 +8,43 @@
         <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     </head>
     <body>
-        <div>
-            xdxd
-            <%= nombre  %>
+
+        
+        <div class="esenario" id ="app" >
+            <div class="char-Continer"  >
+               <p><img src="../public/miku_space.png" class="char" ></p> 
+            </div >
+            <div class= "text-Table" >
+                <div class="grid-block"  v-on:click="siguiente()"  >
+                    
+                    <div class="talk" >
+                        <%= nombre  %> <br>
+                        <p>{{ dialogo1[numero] }} </p>
+                    </div>
+                    
+                    <div>
+                        <div class="options" >
+                            <button type=""  class="boton" >hisotry</button>  
+                            <button type=""  class="boton">skip </button>  
+                            <button type=""  class="boton"> auto </button>  
+                            <button type="" class="boton">save </button>
+                            <button type="" class="boton">load </button>
+                            <button type="" class="boton">settings</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
+        <script >
+                var dialogos=[
+                <% dialogo.forEach(element => {%>
+                   '<%=element %>' ,
+                <% });  %>
+                ]
+            </script>
+            <script type="text/javascript"  src="../public/js/script.js"  >
+                
+            </script>
     </body>
 </html>

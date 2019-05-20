@@ -1,7 +1,7 @@
 {
   "name": "veu_1",
   "version": "1.0.0",
-  "description": "",
+  "description": " renpjs ",
   "main": "index.js",
   "scripts": {
     "test": "electron bin/indexElectron.js ",
@@ -15,6 +15,7 @@
     "express": "^4.17.0"
   },
   "devDependencies": {
-    "electron": "^5.0.1"
+    "electron": "^5.0.1",
+    "electron-packager": "^13.1.1"
   }
 }
